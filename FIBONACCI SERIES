@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int fib1=1,fib2=1,counter,fib3;
+    printf("%d\n",fib1);
+    printf("%d\n",fib2);
+    for(counter=1;counter<15;counter++){
+
+        fib3=(fib1+fib2);
+        printf("%d\n",fib3);
+
+        fib1=fib2;
+        fib2=fib3;
+    }
+}
