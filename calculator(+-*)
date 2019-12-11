@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+    ///declaring variables
+    int number1,number2,sum,difference,product;
+    float quotient;
+    
+    ///prompting the use for input of first number;
+    printf("enter first number:");
+    scanf("%d",&number1);
+    
+    ///prompting the use for input of second number;
+    printf("enter second number:");
+    scanf("%d",&number2);
+    
+    ///calculating the sum,difference,product,quotient of first number & second number;
+    ///putting the result in variable
+    sum=(number1+number2);
+    difference=(number1-number2);
+    product=(number1*number2);
+    quotient=(float)number1/(float)number2;
+    
+    ///printing the sum,difference,product,quotient;
+    printf("sum of two number:%d\n difference of two number:%d\n product of two number:%d\n quotient of two number:%f",sum,difference,product,quotient);
+    return 0;
+
+}
